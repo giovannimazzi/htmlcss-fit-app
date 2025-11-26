@@ -29,3 +29,9 @@
   border-left: 5px solid orange;
   background-color: #fff8ba;
 }
+
+/* Ex. 5 */
+.exercise-item:is(:first-of-type, :last-of-type) {
+  border-left: 5px solid green;
+  background-color: #f0fff4;
+}
