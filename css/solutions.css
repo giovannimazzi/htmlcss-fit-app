@@ -69,3 +69,18 @@ select:focus {
   right: 0;
   margin: 0 5px;
 }
+
+/* Ex. 11-12 */
+.nav-item:hover,
+.nav-item:first-of-type {
+  background-color: #34495e;
+}
+
+.nav-item:hover > *,
+.nav-item:first-of-type > * {
+  color: blue;
+}
+
+.nav-item {
+  transition: 0.5s;
+}
