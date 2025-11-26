@@ -84,3 +84,24 @@ select:focus {
 .nav-item {
   transition: 0.5s;
 }
+
+/* Ex. 13 */
+.quote-box::before {
+  content: '"';
+  font-size: 3rem;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  margin-left: 10px;
+}
+
+.quote-box::after {
+  content: '"';
+  font-size: 3rem;
+  opacity: 0.2;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  margin-right: 10px;
+}
