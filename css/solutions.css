@@ -16,3 +16,10 @@
 .stats-grid:last-child > * {
   color: white;
 }
+
+/* EX. 3 */
+.stats-container > *:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0 2px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
