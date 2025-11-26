@@ -49,3 +49,13 @@ select:focus {
   outline: none;
   transition: 0.5s;
 }
+
+/* Ex. 9 */
+.save-btn:hover {
+  transform: translate(0, -2px);
+  background-color: orangered;
+  box-shadow: 0 2px 10px blue;
+}
+.save-btn {
+  transition: 0.5s;
+}
