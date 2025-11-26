@@ -3,3 +3,16 @@
   content: "🔥";
   font-size: 2rem;
 }
+
+/* Ex. 2 */
+.stats-grid:last-child {
+  background: linear-gradient(
+    90deg,
+    rgba(104, 120, 226, 1) 0%,
+    rgba(116, 81, 171, 1) 100%
+  );
+}
+
+.stats-grid:last-child > * {
+  color: white;
+}
