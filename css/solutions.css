@@ -59,3 +59,13 @@ select:focus {
 .save-btn {
   transition: 0.5s;
 }
+
+/* Ex. 10 */
+.progress-fill::before {
+  content: "65%";
+  font-size: 0.5rem;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin: 0 5px;
+}
